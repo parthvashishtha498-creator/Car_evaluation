@@ -82,12 +82,12 @@ This project predicts the **overall evaluation of a car** based on:
     with gr.Row():
 
         buying_price = gr.Dropdown(
-            choices=[1, 2, 3, 4],
+            choices=[0, 1, 2, 3],
             label=" Buying Price"
         )
 
         maintenance_cost = gr.Dropdown(
-            choices=[1, 2, 3, 4],
+            choices=[0, 1, 2, 3],
             label=" Maintenance Cost"
         )
 
@@ -106,12 +106,12 @@ This project predicts the **overall evaluation of a car** based on:
     with gr.Row():
 
         lug_boot = gr.Dropdown(
-            choices=[1, 2, 3],
+            choices=[0, 1, 2],
             label=" Luggage Boot"
         )
 
         safety = gr.Dropdown(
-            choices=[1, 2, 3],
+            choices=[0, 1, 2],
             label=" Safety"
         )
 
